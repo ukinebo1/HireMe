@@ -741,7 +741,7 @@ color: #252525;
     padding-right: 5%; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     nav>li{
         display: none;
     }
