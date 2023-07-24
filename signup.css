@@ -202,13 +202,13 @@ p > a,
 }
 
 .username {
-  background: url("../images/email.png") no-repeat;
+  background: url("./images/email.png") no-repeat;
   background-size: 15px 15px;
   background-position: 15px 24px;
 }
 
 .pass {
-  background: url("../images/pass.png") no-repeat;
+  background: url("./images/pass.png") no-repeat;
   background-size: 15px 15px;
   background-position: 15px 24px;
 }
