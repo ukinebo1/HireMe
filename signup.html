@@ -4,52 +4,54 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./signup.css">
-	<title>Login</title>
+	<title>Signup</title>
 </head>
+
 <body>
 <main>
-<section>
+
+<section class="main">
 	<img class="logo" 
 	src="./images/logo.png"
 	width="148"
 	height="38">
 
-	<h2>SIGN UP</h2>
-
 	<p class="think">Thinking about becoming a freelancer or client?</p>
+
+
+	<p class="signup">SIGN UP</p>
 	
 	<div class="google">
-		<img src="./images/Google.png"><p>Signup with Google</p>
+		<img src="./images/google.png"><p>Signup with Google</p>
 	</div>
 
  	<div class="linewrap">
-		<div class="line1"></div> <p class="or">OR</p> <div class="line2"></div>
-	<div>
-
-    <input type="text" class="username" placeholder="Email or Username" name="uname" required>
-    <input type="password" class="pass" placeholder="Password" name="psw" required>
-      <br/>
-      <div class="termswrap">
-      	  <img src="./images/check.png">
-    	  <p class="terms">I agree to the Hireme <a href="#agreement">User Agreement</a> and <a href="#conditions">Conditions</a>.</p>
-  	</div>
-
-	<div class="join">
-		<p>Join Hireme</p>
+		<div class="line1"></div> <p class="or">OR</p><div class="line2"></div>
 	</div>
+	<form>
+    <input type="text" class="username" placeholder="Email or Username" name="uname" required>
 
-	<br/>
+    <input type="password" class="pass" placeholder="Password" name="psw" required>
+    <label class="checkboxwrap">
+    	<input type="checkbox" name="remember" class="checkbox">
+    	<span class="checkboxtext"> I accept the <strong>Terms of Service</strong> and <strong>Privacy Policy</strong>
+    	</span>
+  	</label>
+
+    <button type="button" class="join">
+			Join Hireme </button>
+  </form>
 
 	<div class="line3"></div>
 
-	<p><span>Already have an account? </span><a class="login" href="login.html">Log In</a></p>
+	<p class="login"><span>Already have an account?  </span><a class="login" href="login.html">Log In</a></p>
+
+	<p class="startnow">START A LIFE NOW!</p>
 
 </section>
-
 <section>
-	<img src="./images/sideimg.png"
-	class="woman">	
-</section>
+<img class="sideimg" src="./images/sideimg.png">
+</section>	
 </main>
 
 </body>

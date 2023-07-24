@@ -1,126 +1,112 @@
 body {
     margin: 0 auto;
     font-family: Inter;
-    font: 1.0em / 1.0 Arial, Helvetica, sans-serif;
-    max-width: 70%;
     background-color: #FAFCFF;
+    width: 100%;
   }
 
-  * {
-    bo
-  }
+* {
+    box-sizing: border-box;
+}
+/*
+main {
+    display: flex;
+    vertical-align: center;
+    column-gap: 15em;
+}
+*/
 
-  .google,
-  .join {
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+}
+
+.signup,
+.startnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
+}
+
+.google,
+.join {
     border-radius: 10px;
     color: #ffffff;
     background: #4C0252;
     width: 312px;
     height: 56px;
-    
-  }
-
-.logo {
-    max-width: 100%;
-    height: auto;
-    margin-top: 50px;
-}
-
-.signup {
-    width: 133px;
-    height: 30px;
-    flex-shrink: 0;
-}
-
-.google {
-    margin-bottom: 1.3em;
-}
-
-.google,
-.join {
-    display: inline-flex;
     padding: 14px 53px 12px 30px;
     justify-content: center;
     align-items: center;
     gap: 25px;
-}
+  }
 
-
-.woman {
-    max-width: 720px;
-    height: 1024;
-}
-
-section,
-main {
+.google {
     display: flex;
-    column-gap: 200px;
+    width: 350px;
+    height: 56px;
+    padding: 12px 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-body,
+
+
+/*
 section {
     flex-direction: column;
     gap: 10px;
     align-items: center;
     vertical-align: middle;
 }
+*/
 
-input[type=text],
-input[type=password] {
-  width: 401px;
-  height: 70px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
+.username,
+.pass,
+.join {
+  width: 350px;
+  height: 56px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #84078E;
-  border-radius: 10px;
-  box-sizing: border-box;
+  border-radius: 10px; 
 }
 
-input[type=text] {
-    margin-top: 2.7em;
-}
-
-.linewrap {
-    margin-bottom: 60px;
-    align-content: center;
-}
 
 .line1,
-.line2 {
-    display: inline-flex;
+.line2,
+.line3 {
     width: 129.062px;
     height: 1px;
     background: #D9D0D0;
-    margin-bottom: 0.3em;
-}
-
-.line2 {
-    margin-left: 0.1em;
-}
-
-.line1 {
-    margin-left: 2.5em;
-    margin-right: 0.2em;
-}
-
-.or {
-    display: inline-flex;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
 }
 
 .line3 {
-    width: 284px;
-    height: 1px;
-    background: #D9D0D0;
-    margin-top: 2.3em;
-    margin-left: 3.3em;
-    margin-bottom: 1.5em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
 }
 
-h2,
+.linewrap,
+.think,
+.checkboxwrap,
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup,
 span,
 .or,
 .think,
@@ -135,21 +121,25 @@ span,
     line-height: normal;
 }
 
-.or {
-    text-align: center;
-    font-size: 19px;
+.google {
+    color: #ffffff;
+    font-size: 24px;
 }
 
+.or {
+    font-size: 19px;
+    padding-top: 2.4em;
+    padding-bottom: 2.4em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
+}
 
 .think {
     color: #171616;
     font-size: 18px;
-    margin-top: 0;
 }
 
-h2 {
-    margin-bottom: 0;
-}
 
 span,
 .login {
@@ -157,12 +147,7 @@ span,
     font-size: 15px;
 }
 
-span {
-    padding-left: 5.5em;
-}
-
-p > a,
-.login {
+p > a {
     color: #4C0252;
     font-family: Inter;
     font-size: 18px;
@@ -177,26 +162,8 @@ p > a,
     font-size: 16px;
 }
 
-.termswrap {
-    display: inline-flex;
-    flex-direction: row;
-    padding: 1px 53px 5px 0;
-    align-items: center;
-    gap: 0.1em;
-}
-
-.termswrap > img {
-    padding: 10px 15px 30px 1px;
-
-}
-
-.google {
-    color: #FFF;
-    font-size: 24px;
-}
-
-.join > p {
-    color: #FFF;
+.join {
+    color: #ffffff;
     text-align: center;
     font-size: 19px;
 }
@@ -204,13 +171,16 @@ p > a,
 .username {
   background: url("./images/email.png") no-repeat;
   background-size: 15px 15px;
-  background-position: 15px 24px;
+  background-position: 15px 19px;
+  margin-bottom: 2.4em;
 }
 
 .pass {
   background: url("./images/pass.png") no-repeat;
   background-size: 15px 15px;
-  background-position: 15px 24px;
+  background-position: 15px 19px;
+  margin-bottom: 2.5em;
+
 }
 
 input[type='text'],
@@ -218,14 +188,70 @@ input[type='password'] {
     padding-left: 40px;
 }
 
-@media screen and (min-width: 40em) {
-  .woman {
-    display: none;
-  }
- }
+.checkboxwrap {
+    color: #4C0252;
+    margin-bottom: 2.6em;
+}
 
- @media screen and (min-width: 70em) {
-  .woman {
-    display: flex;
-  }
- } 
+.checkbox {
+    width: 18px;
+    height: 18px;
+}
+
+.checkboxwrap > span {
+    color: #040104;
+    font-family: Public Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 1.5em;
+}
+
+.sideimg {
+    display: none;
+}
+
+.startnow {
+    color: #4C0252;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media(min-width: 1000px){
+
+main {
+        display: flex;
+        column-gap: 16em;
+        margin-left: 8em;
+    }
+
+    .sideimg {
+        
+        display: flex;
+    }
+
+    .startnow {
+        color: #4C0252;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 3em;
+    }
+
+    .google,
+    .join,
+    .username,
+    .pass {
+        width: 421px;
+    }
+
+}
