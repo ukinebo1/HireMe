@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.log-form >img{
+.log-form a >img{
     width: 200px;
     height: 50px;
     margin-bottom: 15px;
