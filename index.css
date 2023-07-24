@@ -124,7 +124,7 @@ width: 100%;
 .prohead .bi-search{
     background-color: whitesmoke;
     padding: 10px 5px;
-    margin-left: 120px;
+    margin-left: 90px;
     margin-right: -4px;
     margin-bottom: -2px;
     color:  #4C0252;
@@ -296,7 +296,7 @@ padding-bottom: 4%;
 }
 
 .homeTest3b{
-    background-color: #FFFFFF;
+    background-color: white;
     border: 1px solid;
     border-radius: 15px;
     padding: 60px 20px;
@@ -332,7 +332,7 @@ padding-bottom: 4%;
 
 
 .homeTest3c{
-    background-color: #FFFFFF;
+    background-color: white;
     border: 1px solid;
     border-radius: 15px;
     padding: 60px 20px;
