@@ -1,0 +1,117 @@
+body {
+    margin: 0 auto;
+    font: 1.0em / 1.0 Arial, Helvetica, sans-serif;
+    max-width: 90%;
+    background-color: #FDE1BF;
+  }
+
+section,
+body,
+main {
+    display: flex;
+    row-gap: 0.7em;
+    justify-content: space-between;
+
+}
+
+body,
+section {
+    flex-direction: column;
+}
+
+.pp-edit,
+.pp-hire,
+.pp-chat,
+.pp-portfolio {
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #4C0252;
+    width: 312px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.pp-edit {
+    width: 100px;
+    height: 56px;
+}
+
+.logo {
+    width: 148px;
+    height: 38px;
+    padding-bottom: 3em;
+}
+
+section > img {
+    width: 315px;
+    height: 241px;
+    display: inline-flex;
+}
+
+.pp-hire {
+    display: inline-flex;
+    padding: 14px 53px 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pp-charge {
+    text-align: center;
+}
+
+.pp-charge,
+.pp-location,
+.pp-name,
+.pp-spec,
+.pp-skills,
+div {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.pp-location,
+.pp-name {
+    margin-top: 0;
+}
+
+.pp-name {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.pp-location {
+    font-size: 24px;
+}
+
+.pp-about,
+.typo {
+    font-weight: 400;
+}
+
+div {
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    width: 312px;
+    height: 56px;
+}
+
+.stars {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 50px;     
+}
+
+.rate {
+    max-width: 641px;
+    margin-left: 0;
+}
