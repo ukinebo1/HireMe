@@ -123,11 +123,12 @@ width: 100%;
 
 .prohead .bi-search{
     background-color: whitesmoke;
-    padding: 10px 0;
-    margin-left: 50px;
+    padding: 10px 5px;
+    margin-left: 120px;
     margin-right: -4px;
+    margin-bottom: -2px;
     color:  #4C0252;
-    min-width: 50px;
+    min-width: 80px;
     text-align: center;
 }
 #proinput{
