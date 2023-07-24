@@ -123,8 +123,8 @@ width: 100%;
 
 .bi-search{
     background-color: whitesmoke;
-    padding: 8px 0;
-    margin-left: 26px;
+    padding: 10px 0;
+    margin-left: 50px;
     margin-right: -4px;
     color:  #4C0252;
     min-width: 50px;
@@ -136,13 +136,13 @@ width: 100%;
     font-family: "public san";
     font-weight: 400;
     background-color: whitesmoke;
-    width: 25%;
-    padding: 5px 5px;
+    width: 300px;
+    padding: 10px 10px;
     outline: none;
     border: none;
 }
 .prohead button {
-    padding: 5px 30px 5px 20px;
+    padding: 10px 30px 10px 20px;
     margin-left: -5px;
     color: white;
     background: #4C0252;
