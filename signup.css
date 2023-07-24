@@ -1,0 +1,231 @@
+body {
+    margin: 0 auto;
+    font-family: Inter;
+    font: 1.0em / 1.0 Arial, Helvetica, sans-serif;
+    max-width: 70%;
+    background-color: #FAFCFF;
+  }
+
+  * {
+    bo
+  }
+
+  .google,
+  .join {
+    border-radius: 10px;
+    color: #ffffff;
+    background: #4C0252;
+    width: 312px;
+    height: 56px;
+    
+  }
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.signup {
+    width: 133px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.google {
+    margin-bottom: 1.3em;
+}
+
+.google,
+.join {
+    display: inline-flex;
+    padding: 14px 53px 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.woman {
+    max-width: 720px;
+    height: 1024;
+}
+
+section,
+main {
+    display: flex;
+    column-gap: 200px;
+}
+
+body,
+section {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+input[type=text],
+input[type=password] {
+  width: 401px;
+  height: 70px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #84078E;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+    margin-top: 2.7em;
+}
+
+.linewrap {
+    margin-bottom: 60px;
+    align-content: center;
+}
+
+.line1,
+.line2 {
+    display: inline-flex;
+    width: 129.062px;
+    height: 1px;
+    background: #D9D0D0;
+    margin-bottom: 0.3em;
+}
+
+.line2 {
+    margin-left: 0.1em;
+}
+
+.line1 {
+    margin-left: 2.5em;
+    margin-right: 0.2em;
+}
+
+.or {
+    display: inline-flex;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+
+.line3 {
+    width: 284px;
+    height: 1px;
+    background: #D9D0D0;
+    margin-top: 2.3em;
+    margin-left: 3.3em;
+    margin-bottom: 1.5em;
+}
+
+h2,
+span,
+.or,
+.think,
+.join,
+.google,
+.terms {
+    color: #040104;
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.or {
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.think {
+    color: #171616;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+span,
+.login {
+    color: #040104;
+    font-size: 15px;
+}
+
+span {
+    padding-left: 5.5em;
+}
+
+p > a,
+.login {
+    color: #4C0252;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.terms {
+    color: #040104;
+    font-size: 16px;
+}
+
+.termswrap {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 1px 53px 5px 0;
+    align-items: center;
+    gap: 0.1em;
+}
+
+.termswrap > img {
+    padding: 10px 15px 30px 1px;
+
+}
+
+.google {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.join > p {
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+}
+
+.username {
+  background: url("../images/email.png") no-repeat;
+  background-size: 15px 15px;
+  background-position: 15px 24px;
+}
+
+.pass {
+  background: url("../images/pass.png") no-repeat;
+  background-size: 15px 15px;
+  background-position: 15px 24px;
+}
+
+input[type='text'],
+input[type='password'] {
+    padding-left: 40px;
+}
+
+@media screen and (min-width: 40em) {
+  .woman {
+    display: none;
+  }
+ }
+
+ @media screen and (min-width: 70em) {
+  .woman {
+    display: flex;
+  }
+ } 
