@@ -738,15 +738,10 @@ color: #252525;
     padding-right: 5%; 
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 450px) {
-    nav>li{
-=======
 
 
 @media screen and (max-width: 720px) {
     nav > li{
->>>>>>> 5cd8f630bdc4d8670d410954889bdd0fb6890d5f
         display: none;
     }
     .homeHeaderContainer > header{
@@ -867,7 +862,3 @@ color: #252525;
 
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5cd8f630bdc4d8670d410954889bdd0fb6890d5f
